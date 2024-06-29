@@ -23,7 +23,7 @@ const requestOptions = {
   redirect: "follow"
 };
 
-fetch("https://microbloglite.us-east-2.elasticbeanstalk.com/api/posts", requestOptions)
+fetch("https://microbloglite.onrender.com/api/posts", requestOptions)
   .then((response) => response.text())
   .then((result) => console.log(result))
     .catch((error) => console.error(error))};

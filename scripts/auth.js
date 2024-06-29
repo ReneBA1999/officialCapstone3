@@ -20,13 +20,13 @@ const requestOptions = {
   redirect: "follow"
 };
 
-fetch("https://microbloglite.us-east-2.elasticbeanstalk.com/api/users", requestOptions)
+fetch("https://microbloglite.onrender.com/api/users", requestOptions)
   .then((response) => response.text())
   .then((result) => login(signupData))
   .catch((error) => console.error(error));
 }
 
-const apiBaseURL = "https://microbloglite.us-east-2.elasticbeanstalk.com";
+const apiBaseURL = "https://microbloglite.onrender.com";
 // Backup server (mirror):   "https://microbloglite.onrender.com"
 
 // NOTE: API documentation is available at /docs 
