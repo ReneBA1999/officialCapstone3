@@ -1,0 +1,57 @@
+/*registration page css*/
+
+/* Body element: Set up flexbox layout, full viewport height, and background image */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('/images/creeper.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+/* Heading 1: Add margin, set up flexbox layout, and style the text */
+h1 {
+    margin: 20px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #dffff7;
+    border-radius: 5px;
+}
+
+/* Main content: Set up flexbox layout and add padding */
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form: Style the form with background, padding, rounded corners, and shadow */
+form {
+    background: #dffff7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form div: Add margin to the divs inside the form */
+form div {
+    margin-bottom: 15px;
+}
+
+/* Button: Add margin to the button */
+.btn {
+    margin-left: 45px;
+}
+
+/* Footer: Center align text and add padding */
+footer {
+    text-align: center;
+    padding: 10px 0;
+}

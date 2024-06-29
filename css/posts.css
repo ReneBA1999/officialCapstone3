@@ -1,0 +1,62 @@
+/* Posts Page CSS*/
+
+/* Main content: Add margin to top, set up flexbox layout, and add padding */
+main {
+    margin-top: 20px; /* Add space to avoid content being hidden under the navbar */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Posts container: Style the container for posts */
+.posts-container {
+    background-color: #dffff7;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Posts title: Style the title section of the posts */
+.posts-title {
+    width: 100%;
+    background-color: #0bc694;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Post content: Style the content inside posts */
+#postContent {
+    padding: 20px;
+}
+
+/* Bars: Style the bars inside the posts */
+.bars {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #dffff7;
+    text-align: center;
+}
+
+/* Post: Style individual posts */
+.post {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-color: green;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    width: 600px;
+}
+
+
+
+
+
+
+

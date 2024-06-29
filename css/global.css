@@ -1,0 +1,124 @@
+/* Global CSS for all pages */
+
+* {
+    /* Sizing helper: See Workbook 1b, page 2-33. */
+    box-sizing: border-box;
+
+    /* 
+       Vizualization helper: While styling or debugging your HTML & CSS, 
+       uncomment the rule below to see all the boxes on your page more
+       clearly! (Remove this outline before submitting: users won't 
+       want to see it!)
+    */
+    /* outline: 1px dotted red; */
+}
+
+:root {
+    font-size: 1rem;
+}
+/* Body element: Remove default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar: Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dffff7;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #0bc694;
+}
+
+
+/* Navbar brand: Style the brand section within the navbar */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+/* Search box: Style the search box within the navbar */
+.search-box {
+    background: #affce9;
+    width: 330px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.navbar-brand{
+    font-weight: 700;
+}
+
+/* Navbar logo: Style the logo image within the brand section */
+.navbar-brand img.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+/* Navbar heading: Style the heading within the navbar */
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navbar list: Style the list within the navbar */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Navbar list item: Style the list items within the navbar */
+.navbar ul li {
+    margin: 0 10px;
+}
+
+/* Navbar links: Style the links within the navbar */
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+/* Navbar links (hover): Style the links on hover */
+.navbar ul li a:hover {
+    color: #0bc694;
+    font-size: 26px;
+}
+
+/* Main content: Add space to avoid content being hidden under the navbar */
+main {
+    margin-top: 70px;
+}
+
+/* Heading 2: Style the secondary headings */
+h2 {
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+/* Footer: Style the footer */
+footer {
+    background-color: #dffff7;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+
+
+
+

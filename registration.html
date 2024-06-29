@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- Global CSS (CSS rules you want applied to all pages) -->
+    <link rel="stylesheet" href="css/global.css">
+
+    <!-- Page-specific CSS -->
+    <link rel="stylesheet" href="css/registration.css">
+
+    <title>Sign up for cyber chat Network!</title>
+
+    <!-- Run BEFORE page is finished loading (before window.onload - don't add the `defer` attribute): -->
+    <script src="scripts/auth.js"></script>
+</head>
+
+<!-- Body: Contains the main content of the page -->
+<body>
+
+    <!-- Header: Contains the page title and introductory message -->
+    <header>
+        <h1>Welcome to&nbsp<lord-icon src="https://cdn.lordicon.com/wzrwaorf.json" trigger="hover"
+                style="width:50px;height:50px">
+            </lord-icon>Cyber Chat, Sign up for a free account today!</h1>
+    </header>
+
+    <!-- Main: Contains the signup form -->
+    <main>
+
+        <!-- Signup Form -->
+        <form id="signup">
+            <!-- Form Title -->
+            <h1><span style="color: black;">Register</span></h1>
+            <!-- Full Name Input -->
+            <div>
+                <label for="fullname">full name</label>
+                <input type="text" id="fullname" minlength="3">
+            </div>
+            <!-- Username Input -->
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" minlength="3">
+            </div>
+            <!-- Password Input -->
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" minlength="6">
+            </div>
+            <!-- Signup Button -->
+            <button id="signupButton" type="submit" class="btn btn-success">signup</button>
+            <!-- Login Link -->
+            <a href="index.html" class="btn btn-success">Login</a>
+        </form>
+
+    </main>
+
+    <!-- Footer: Contains the copyright information -->
+    <footer class="text-center mt-auto py-3">
+        &copy 2024 Cyber Chat. Rene Banuelos.
+    </footer>
+
+    <!-- External scripts: handles registration functionality and icons -->
+    <script src="scripts/registration.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</body>
+
+</html>
