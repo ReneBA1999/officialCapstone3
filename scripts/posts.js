@@ -25,7 +25,7 @@ async function getpost() {
         redirect: "follow"
     };
     console.log("beforefetch");
-    fetch("http://microbloglite.us-east-2.elasticbeanstalk.com/api/posts?limit=100&offset=0", requestOptions)
+    fetch("https://microbloglite.us-east-2.elasticbeanstalk.com/api/posts?limit=100&offset=0", requestOptions)
         .then((response) => response.json())  // Parse response as JSON
         .then((result) => {
             console.log(result);
